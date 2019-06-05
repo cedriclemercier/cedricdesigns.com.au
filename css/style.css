@@ -858,6 +858,33 @@ footer p a span {
     padding: 17px 45px;
 }
 
+
+.btn-l {
+    color: #fff;
+    background-color: #FF1734;
+    /* border-color: #726FB9; */
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.h-30 {
+    height:30px;
+}
+
+.h-40 {
+    height:40px;
+}
+
+.h-50 {
+    height:50px;
+}
+
+
 /* Back to top button
 ---------------------------------- */
 #back-top {
