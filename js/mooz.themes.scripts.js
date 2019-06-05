@@ -1,11 +1,11 @@
-$(window).scroll(function() {
+/*$(window).scroll(function() {
     if ($(document).scrollTop() > 150) {
         $('.navbar').addClass('navbar-shrink');
     }
     else {
         $('.navbar').removeClass('navbar-shrink');
     }
-});
+});*/
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

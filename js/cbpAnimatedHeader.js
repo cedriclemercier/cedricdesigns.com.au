@@ -22,7 +22,7 @@ var cbpAnimatedHeader = (function() {
 				setTimeout( scrollPage, 250 );
 			}
 		}, false );
-	}
+	}/*
 
 	function scrollPage() {
 		var sy = scrollY();
@@ -33,7 +33,7 @@ var cbpAnimatedHeader = (function() {
 			$('.navbar').removeClass('navbar-shrink');
 		}
 		didScroll = false;
-	}
+	}*/
 
 	function scrollY() {
 		return window.pageYOffset || docElem.scrollTop;
