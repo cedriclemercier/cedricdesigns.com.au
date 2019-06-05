@@ -710,6 +710,34 @@ section#contact .form-group input, section#contact .form-group textarea {
     margin-right: 5px;
 }
 
+
+
+/*--------------------
+4.8. Forms
+--------------------*/
+
+
+.form-control {
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border-color: rgba(12,12,12,0.13);
+    min-height: 50px;
+}
+
+.contact-submit input[type="submit"] {
+    color: #fff;
+    border-color:transparent;
+    background-color: #FF1734;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 17px 45px;
+}
+
+
 /*--------------------
 5. Footer
 --------------------*/
