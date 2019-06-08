@@ -257,22 +257,22 @@ header .intro-text {
     }
 }
 
-/*------- Portfolio header --------*/
+/*------- Services dark template header --------*/
 
-header .intro-text-portfolio {
+header .intro-text-dark {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 @media (min-width: 768px) {
-    header .intro-text-portfolio {
+    header .intro-text-dark {
         padding-top: 150px;
         padding-bottom: 50px;
     }
 }
 
 @media (min-width: 768px) {
-    header .intro-text-portfolio .intro-heading {
+    header .intro-text-dark .intro-heading {
         line-height: 65px;
         font-size: 50px;
         margin-bottom: 30px;
@@ -280,7 +280,7 @@ header .intro-text-portfolio {
 }
 
 
-header .intro-text-portfolio .intro-heading {
+header .intro-text-dark .intro-heading {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 40px;
@@ -288,7 +288,7 @@ header .intro-text-portfolio .intro-heading {
     margin-bottom: 25px;
     letter-spacing: -1px;
     word-spacing: 10px;
-    color: #202020;
+    color: #fff;
     /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
 }
 
@@ -336,6 +336,7 @@ header .intro-text .intro-heading {
         margin-bottom: 30px;
     }
 }
+
 
 /*--------------------
 4. Sections
@@ -406,9 +407,9 @@ header .intro-text .intro-heading {
 }
 
 .mz-module-about p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 24px;
     color: #969696;
 }
 
@@ -424,6 +425,8 @@ header .intro-text .intro-heading {
     margin: 0 2px 4px;
     font-size: 24px;
 }
+
+
 
 /*--------------------
 4.2. Skills
@@ -448,6 +451,27 @@ header .intro-text .intro-heading {
 .dark-bg .section-text h4 {
     color: #dfdfdf;
 }
+
+
+
+
+/*--------------------
+4.3. Services
+--------------------*/
+
+.service-box {
+    margin-bottom: 50px;
+}
+
+.mz-module-about {
+}
+
+.services-section .ot-circle {
+    font-size: 30px;
+}
+
+
+
 
 /*--------------------
 4.3. Portfolio
