@@ -471,6 +471,10 @@ header .intro-text .intro-heading {
 }
 
 
+.first-section {
+    padding-top:140px;
+}
+
 
 
 /*--------------------
@@ -593,6 +597,25 @@ figure.effect-bubba:hover p {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
+
+
+/*--------------------
+4.3.1 Portfolio items
+--------------------*/
+
+.blog-thumb {
+    padding-top: 70px;
+}
+
+.blog-thumb h2 {
+    padding-top: 70px;
+    font-weight: 700;
+}
+
+.blog-thumb .portfolio-gif {
+    display: inline-block;
+}
+
 
 /*--------------------
 4.4. Dark Short section (counters, quote, etc)
