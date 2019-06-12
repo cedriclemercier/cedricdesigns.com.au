@@ -54,11 +54,15 @@ h6 {
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 23px;
+    line-height: 25px;
     letter-spacing: 0.2px;
     color: #797979;
+}
+
+img {
+    margin: 10px 0px;
 }
 
 .dark-bg p {
@@ -607,7 +611,7 @@ figure.effect-bubba:hover p {
     padding-top: 70px;
 }
 
-.blog-thumb h2 {
+.blog-thumb h2, .blog-thumb h1 {
     padding-top: 70px;
     font-weight: 700;
 }
@@ -616,6 +620,19 @@ figure.effect-bubba:hover p {
     display: inline-block;
 }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /*--------------------
 4.4. Dark Short section (counters, quote, etc)
