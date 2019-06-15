@@ -177,19 +177,21 @@ section ul li:before {
     letter-spacing: 1px;
     color:#2a302f;
 }
+
+
+
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
     color: #FF1734;
     outline: 0;
 }
 
 .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #fed136;
+    color: #FF1734;
+    background-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #fec503;
+    color: #FF1734;
+    background-color: transparent;
 }
 
 @media (min-width:768px) {
