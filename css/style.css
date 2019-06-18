@@ -246,7 +246,8 @@ section ul li:before {
 --------------------*/
 
 header {
-    background-color: #F5F5F5;
+    background-image: url(../images/bg.jpg);
+    background-color: #fff;
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -294,7 +295,7 @@ header .intro-text-dark {
 
 
 header .intro-text-dark .intro-heading {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -329,7 +330,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -344,8 +345,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         /*line-height: 95px;
         font-size: 77px;*/
-        line-height: 65px;
-        font-size: 50px;
+        line-height: 75px;
+        font-size: 60px;
         margin-bottom: 30px;
     }
 }
