@@ -878,6 +878,21 @@ footer p a span {
     font-weight: 700;
 }
 
+.social-icons a {
+    color: #909090;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    padding: 0px;
+    position: relative;
+    top: 0px;
+    margin: 0px 15px;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
 /*--------------------
 6. Modal
 --------------------*/
@@ -981,6 +996,25 @@ footer p a span {
     letter-spacing: 2px;
     font-size: 12px;
     padding: 10px 20px;
+}
+
+.btn-s:hover, .btn-s:focus, .btn-s:active, .btn-s.active, .open .dropdown-toggle.btn-s {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+
+.btn-s {
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 10px 20px;
+    color: #323232;
+    background-color: #fff;
+    border-color: #323232;
 }
 
 .h-30 {
