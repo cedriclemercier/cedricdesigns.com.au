@@ -77,7 +77,7 @@ img {
 }
 
 a:hover, a:focus, a:active, a.active {
-    color: #fec503;
+    color: #FF1734;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
@@ -358,6 +358,10 @@ header .intro-text .intro-heading {
 
 .grey-bg {
     background-color: #f8f8f8;
+}
+
+.white-bg {
+    background-color: #fff;
 }
 
 .section-title h1 {
@@ -1083,4 +1087,43 @@ footer p a span {
             margin-top: 7px;
             font-size: 20px;
         }
+}
+
+
+
+
+/*--------------------
+8. Gigs
+--------------------*/
+
+
+.gig-item {
+    background-color: #fff;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.gig-desc {
+    padding: 5px 15px 15px 15px;;
+}
+
+.gig-desc h4 {
+    line-height: normal;
+}
+
+.gig-cta {
+    position: relative;
+}
+
+.gig-link {
+    float:right;
+}
+
+.gig-link img {
+    padding-bottom: 10px;
+}
+
+.gig-link strong {
+    font-size: 18px;
+    color: #000;
+    padding-right: 5px;
 }
