@@ -1096,7 +1096,6 @@ footer p a span {
 8. Gigs
 --------------------*/
 
-
 .gig-item {
     background-color: #fff;
     box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.15);
@@ -1126,4 +1125,15 @@ footer p a span {
     font-size: 18px;
     color: #000;
     padding-right: 5px;
+}
+
+.gig-new {
+    position: absolute;
+    padding: 8px 18px;
+    background-color: #FF1734;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
 }
