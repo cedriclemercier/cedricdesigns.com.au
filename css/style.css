@@ -288,7 +288,7 @@ section ul li:before {
     .header-section {
         padding:100px;
     }
-    
+
     .header-section h2 {
         font-size: 3rem;
         line-height: 4rem;
@@ -727,6 +727,19 @@ figure.effect-bubba:hover p {
 
 .blog-thumb .portfolio-gif {
     display: inline-block;
+}
+
+.blog-thumb ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #797979;
+}
+
+.blog-thumb ul {
+    padding-left:30px;
 }
 
 .videoWrapper {
