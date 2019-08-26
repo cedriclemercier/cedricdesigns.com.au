@@ -22,7 +22,8 @@
         <title>Contact | Cedric Le Mercier - Freelance Web and Graphic Designer in Melbourne </title>
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/cc5da75b66.js"></script>
+        <!--<script src="https://kit.fontawesome.com/cc5da75b66.js"></script>-->
         <!-- Custom styles for this template -->
         <link href="css/owl.carousel.css" rel="stylesheet">
         <link href="css/owl.theme.default.min.css"  rel="stylesheet">
@@ -40,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="index"><img src="images/fav-icon.jpg" alt="Cedric Designs Logo" >
+                    <a class="navbar-brand page-scroll" href="index"><img src="images/fav-icon.jpg" alt="Minimalistic Logo for Graphic and Web Design Freelance Business Portfolio: Cedric Designs" >
 
 
                     </a>
@@ -55,10 +56,13 @@
                             <a href="index">Home</a>
                         </li>
                         <li>
+                            <a href="about">About</a>
+                        </li>
+                        <li>
                             <a href="services">Services</a>
                         </li>
                         <li>
-                            <a href="portfolio/index">Portfolio</a>
+                            <a href="portfolio/">Portfolio</a>
                         </li>
                         <li class="active">
                             <a href="contact">Contact</a>
@@ -69,25 +73,21 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
+
         <!-- Header -->
 
-        <header class="dark-bg">
-        </header>
+
+        <!--======================== Map section =========================-->
 
 
+        <div id="map">
 
-
-
-
-
-
-
-
+        </div>
 
         <!--======================== Get in touch section =========================-->
 
 
-        <section id="intouch" class="light-bg first-section">
+        <section id="intouch" class="first-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -97,17 +97,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row contact-cta">
                     <!-- about module -->
-                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <h2>Say hi</h2>
+                        <hr>
+                        <ul>
+                            <li>Email: <a href="mailto:info@cedricdesigns.com.au">info@cedricdesigns.com.au</a></li>
+                        </ul>
+                            <h3>Social Media Links</h3>
+                        <hr>
+                        <div class="contact-icons">
+                            <a href="https://www.instagram.com/cedesignlaos/" class="fab fa-instagram" target="_blank"></a>
+                            <a href="https://www.behance.net/cedriclemercierlaos" class="fab fa-behance" target="_blank"></a>
+                            <a href="https://www.linkedin.com/in/cedric-le-mercier/" class="fab fa-linkedin" target="_blank"></a>
+                            
+                            <a href="https://artstation.com/cedriclemercierlaos" class="fab fa-artstation" target="_blank"></a>
+                            <div class="h-30"></div>
+                        </div>
+
+                    </div>
                     <div class="col-md-8 text-center">
                         <div class="contact-form">
                             <form id="contact-form" method="post" data-netlify="true">
                                 <select name="service" class="form-control" required>
                                     <option value="" selected disabled hidden>Service request...</option>
-                                    <option value="web-development">Web Development / UI Design</option>
                                     <option value="mobile-app">Graphic Design / Branding</option>
-                                    <option value="design">Motion Graphics</option>
+                                    <option value="web-development">Web Design / Development</option>
+                                    <option value="mobile-app">Mobile App UI Design</option>
+                                    <option value="animation">Animation Videos</option>
                                 </select>
                                 <input name="name" type="text" class="form-control" placeholder="Enter your name" required>
                                 <input name="email" type="email" class="form-control" placeholder="Enter your email address" required>
@@ -124,74 +142,119 @@
             <!-- /.container -->
         </section>
 
+        <!--======================== Gigs section =========================-->
 
-
-
-
-        <!--======================== Contact section =========================-->
-
-
-        <section id="contact" class="dark-bg">
+        <section id="gig" class="light-bg">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="section-title">
-                            <h2>Contact Us</h2>
-                            <p>If you have some Questions or need Help! Please Contact Us!<br>We make Cool and Clean Design for your Business</p>
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <h2>Contact me on Upwork!</h2>
+                        <p>
+                            I am also present on Upwork. This freelancing platform offer escrow services is the largest in the world and offer <strong>secure transactions</strong> and great quality check. <br><br>Be sure to check it out!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-4">
+                    <a href="https://www.upwork.com/o/profiles/users/_~0180bbb7e2623196dd/" target="_blank">
+
+
+                        <!-- Gig item 1 -->
+                        <div class="gig-item">
+                            <figure>
+                                <img src="images/thumbnails/upw.png" alt="Colorful Farmer Illustration Holding a Notebook and Thinking" class="img-responsive" />
+                            </figure>
+
+                            <div class="gig-desc">
+                                <h2>Branding / Video Animation</h2>
+                                <p><i>(Requires Sign In)</i></p>
+                                <div class="h-30"></div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                </section>
+
+
+
+
+
+            <!--======================== Contact section =========================-->
+
+
+            <section id="contact" class="dark-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="section-title">
+                                <h2>Contact Us</h2>
+                                <p>If you have some Questions or need Help! Please Contact Us!<br>We make Cool and Clean Design for your Business</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <div class="section-text">
+                                <h4>Our Business Office</h4>
+                                <p>Melbourne, VIC 3000</p>
+                                <p><i class="fa fa-phone"></i> TBC</p>
+                                <p><i class="fa fa-envelope"></i> info@cedricdesigns.com.au</p>
+                            </div>
+                            <div class="h-50"></div>
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <div class="section-text">
+                                <h4>Business Hours</h4>
+                                <p><i class="fa fa-clock-o"></i> <span class="day">Weekdays:</span><span>9am to 8pm</span></p>
+                                <p><i class="fa fa-clock-o"></i> <span class="day">Saturday:</span><span>9am to 5pm</span></p>
+                                <p><i class="fa fa-clock-o"></i> <span class="day">Sunday:</span><span>Closed</span></p>
+                                <div class="h-50"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="section-text social-icons text-center">
+                                <h4>Social Media Links</h4>
+                                <a href="https://www.instagram.com/cedesignlaos/" class="fab fa-instagram"></a>
+                                <a href="https://www.behance.net/cedriclemercierlaos" class="fab fa-behance"></a>
+                                <a href="https://www.linkedin.com/in/cedric-le-mercier/" class="fab fa-linkedin"></a>
+                                <div class="h-50"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <div class="section-text">
-                            <h4>Our Business Office</h4>
-                            <p>Melbourne, VIC 3000</p>
-                            <p><i class="fa fa-phone"></i> TBC</p>
-                            <p><i class="fa fa-envelope"></i> info@cedricdesigns.com.au</p>
-                        </div>
-                        <div class="h-50"></div>
-                    </div>
-
-                    <div class="col-md-4 text-center">
-                        <div class="section-text">
-                            <h4>Business Hours</h4>
-                            <p><i class="fa fa-clock-o"></i> <span class="day">Weekdays:</span><span>9am to 8pm</span></p>
-                            <p><i class="fa fa-clock-o"></i> <span class="day">Saturday:</span><span>9am to 5pm</span></p>
-                            <p><i class="fa fa-clock-o"></i> <span class="day">Sunday:</span><span>Closed</span></p>
-                            <div class="h-50"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                       <div class="section-text social-icons text-center">
-                            <h4>Social Media Links</h4>
-                            <a href="https://dribbble.com/cedriclaos" class="fa fa-dribbble"></a>
-                            <a href="https://www.behance.net/cedriclemercierlaos" class="fa fa-behance"></a>
-                            <a href="https://www.linkedin.com/in/cedric-le-mercier/" class="fa fa-linkedin"></a>
-                            <div class="h-50"></div>
-                        </div>
-                    </div>
+            </section>
+            <p id="back-top">
+                <a href="#top"><i class="fab fa-angle-up"></i></a>
+            </p>
+            <footer>
+                <div class="container text-center">
+                    <p>Copyright © 2019 Cedric Designs</p>
                 </div>
-            </div>
-        </section>
-        <p id="back-top">
-            <a href="#top"><i class="fa fa-angle-up"></i></a>
-        </p>
-        <footer>
-            <div class="container text-center">
-                <p>Copyright © 2019 Cedric Designs</p>
-            </div>
-        </footer>
+            </footer>
 
-        <!-- Bootstrap core JavaScript
+            <!-- Bootstrap core JavaScript
 ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
-        <script src="js/jquery.appear.js"></script>
-        <script src="js/SmoothScroll.min.js"></script>
-        <script src="js/mooz.themes.scripts.js"></script>
-    </body>
-</html>
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/cbpAnimatedHeader.js"></script>
+            <script src="js/jquery.appear.js"></script>
+            <script src="js/SmoothScroll.min.js"></script>
+            <script src="js/mooz.themes.scripts.js"></script>
+            <script>
+                function initMap() {
+                    // The location of Uluru
+                    var melb = {lat: -37.813629, lng: 144.963058};
+                    // The map, centered at Uluru
+                    var map = new google.maps.Map(
+                        document.getElementById('map'), {zoom: 11, center: melb});
+                    // The marker, positioned at Uluru
+                    var marker = new google.maps.Marker({position: melb, map: map});
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmsTXRfuajEodFlewBIGE6nhJe4NkeGLE&callback=initMap">
+            </script>
+            </body>
+        </html>

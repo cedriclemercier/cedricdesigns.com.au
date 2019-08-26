@@ -49,8 +49,8 @@ $('.owl-portfolio').owlCarousel({
     margin:10,
     nav:true,
     navText: [
-          "<i class='fa fa-angle-left'></i>",
-          "<i class='fa fa-angle-right'></i>"
+          "<i class='fab fa-angle-left'></i>",
+          "<i class='fab fa-angle-right'></i>"
           ],
     dots:false,
     autoplay:true,
