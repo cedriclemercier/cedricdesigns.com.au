@@ -621,9 +621,17 @@ header .intro-text .intro-heading {
 }
 
 .services-section h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
     margin: 0;
+}
+
+@media (min-width: 768px) {
+    .services-section h1 {
+        font-size: 5rem;
+        font-weight: 800;
+        margin: 0;
+    }
 }
 .services-section p, .services-section ul li {
     font-size: 2rem;
