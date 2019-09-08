@@ -266,6 +266,7 @@ section ul li:before {
     font-size: 4.5rem;
     line-height: 5rem;
     font-weight: 600;
+    animation-delay: 0s;
 }
 
 .header-section h2 {
@@ -274,6 +275,11 @@ section ul li:before {
     padding:0;
     line-height: 2.5rem;
     width:90%;
+    animation-delay: 0.3s;
+}
+
+.header-section a {
+    animation-delay: 0.5s;
 }
 
 
@@ -299,7 +305,7 @@ header {
     background-image: url(../images/bg-01.png);
     background-color: #fff;
     background-repeat: none;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -363,8 +369,7 @@ header .intro-text {
 .img-header {
     position:absolute;
     left: 56%;
-    top: 130px;
-    transform: scale(0.7);
+    top: 280px;
 }
 
 /*------- Services dark template header --------*/
@@ -616,6 +621,12 @@ header .intro-text .intro-heading {
 }
 
 .service-icon {
+    padding: 100px 0px;
+    border-radius:8px;
+}
+
+
+.mz-module-about .service-icon {
     padding: 60px 0px;
     border-radius:8px;
 }
@@ -638,7 +649,7 @@ header .intro-text .intro-heading {
     line-height: 3rem;
 }
 
-#service-2 .services-section h1, #service-2 .services-section ul li {
+#service-2 .services-section h1, #service-2 .services-section ul li, #service-5 h2 {
     color: #fff;
 }
 
