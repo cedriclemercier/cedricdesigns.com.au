@@ -260,6 +260,7 @@ section ul li:before {
 
 .header-content {
     z-index: 2;
+    backface-visibility: hidden;
 }
 
 .header-section h1 {
@@ -267,6 +268,7 @@ section ul li:before {
     line-height: 5rem;
     font-weight: 600;
     animation-delay: 0s;
+    animation: moveInLeft 1s ease-out;
 }
 
 .header-section h2 {
@@ -275,7 +277,7 @@ section ul li:before {
     padding:0;
     line-height: 2.5rem;
     width:90%;
-    animation-delay: 0.3s;
+    animation: moveInRight 1s ease-out;
 }
 
 .header-section a {
@@ -297,6 +299,58 @@ section ul li:before {
         font-size: 2rem;
         line-height: 4rem;
         width:60%;
+    }
+}
+
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+
+    60% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px)
+    }
+
+    60% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveInUp {
+    0% {
+        transform: translate(-100px, 300px);
+        opacity: 0;
+    }
+    
+    40% {
+        opacity: 1;
+    }
+    
+    80% {
+    }
+
+    100% {
+        transform: translate(0);
     }
 }
 
@@ -333,44 +387,13 @@ header .intro-text {
 }
 
 
-.video-container {
-    position:absolute;
-    top:0;
-    bottom: 0;
-    width:100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.video-container video {
-    min-height: 100%;
-    min-width: 100%;
-
-    width:auto;
-    height:100%;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.color-overlay {
-    position: absolute;
-    top:0;
-    left:0;
-    z-index:0;
-    width:100%;
-    height:100%;
-    z-index: 1;
-    opacity: 0.95;
-}
-
 .img-header {
     position:absolute;
     left: 56%;
-    top: 280px;
+    top: 280px;/*
+    animation: moveInUp 1s ease-out;*/
 }
+
 
 /*------- Services dark template header --------*/
 
