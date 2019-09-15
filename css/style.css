@@ -338,19 +338,13 @@ section ul li:before {
 
 @keyframes moveInUp {
     0% {
-        transform: translate(-100px, 300px);
+        transform: translateY(30px);
         opacity: 0;
     }
     
-    40% {
-        opacity: 1;
-    }
-    
-    80% {
-    }
-
     100% {
         transform: translate(0);
+        opacity: 1;
     }
 }
 
@@ -1283,6 +1277,42 @@ footer p a span {
     color: #323232;
     background-color: #fff;
     border-color: #323232;
+}
+
+.btn-animated {
+    position: relative;
+    transition: all .4s;
+    animation: moveInUp .4s ease-out .6s;
+    animation-fill-mode: backwards;
+}
+
+.btn-animated::after {
+    content: "";
+    display: inline-block;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: #FF1734;
+    z-index: -1;
+    border-radius: 2px;
+    transition: all .2s;
+}
+
+.btn-animated:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.btn-animated:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.btn-animated:hover::after {
+    transform: scale(1.3);
+    opacity: 0;
 }
 
 .h-30 {
