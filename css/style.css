@@ -341,7 +341,7 @@ section ul li:before {
         transform: translateY(30px);
         opacity: 0;
     }
-    
+
     100% {
         transform: translate(0);
         opacity: 1;
@@ -1333,8 +1333,12 @@ footer p a span {
 #back-top {
     position: fixed;
     z-index: 1000;
-    bottom: 40px;
-    right: 50px;
+    /* Old settings */
+    /*bottom: 40px;
+    right: 50px;*/
+
+    bottom: 120px;
+    right: 25px;
 }
 #back-top a {
     width: 60px;
