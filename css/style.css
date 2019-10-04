@@ -72,6 +72,10 @@ img {
     /*padding: 10px 0px;*/
 }
 
+a {
+    color: #FF1734;
+}
+
 .dark-bg p {
     color: #B1B1B1;	
 }
