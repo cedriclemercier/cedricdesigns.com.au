@@ -14,14 +14,14 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="Animated Advertising Video or 'Explainer' I made for the Escale-Ads agency, in France. ">
         <meta name="author" content="">
         <link rel="icon" href="../images/fav-icon.png">
         <title>Escale-Ads Animation | Freelance Web and Graphic Design | Cedric Le Mercier </title>
         <!-- Bootstrap core CSS -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/cc5da75b66.js"></script>
         <!-- Custom styles for this template -->
         <link href="../css/owl.carousel.css" rel="stylesheet">
@@ -30,52 +30,47 @@
     </head>
     <body id="page-top">
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="../index"><img src="images/fav-icon.jpg" alt="Minimalistic Logo for Graphic and Web Design Freelance Business Portfolio: Cedric Designs" >
+                <a class="navbar-brand" href="index"><img src="images/fav-icon.jpg" alt="Minimalistic Logo for Graphic and Web Design Freelance Business Portfolio: Cedric Designs" >
+                </a>
 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li>
-                            <a href="../index">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../about">About</a>
                         </li>
-                        <li>
-                            <a href="../about">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../services">Business Website</a>
                         </li>
-                        <li>
-                            <a href="../services">Website Solutions</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Other Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../branding">Branding</a>
+                                <a class="dropdown-item" href="../userinterface">UI Design</a>
+                                <a class="dropdown-item" href="../videos">Video Ads</a>
+                            </div>
                         </li>
-                        <li>
-                            <a href="../other-services">Other Services</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index">Portfolio</a>
                         </li>
-                        <li>
-                            <a href="../portfolio">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="../contact">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../contact">Contact</a>
                         </li>
                     </ul>
+
                 </div>
-                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container-fluid -->
         </nav>
-        <!-- Header -->
 
 
 
@@ -193,7 +188,7 @@
                             <p><i class="fa fa-phone"></i> TBC</p>
                             <p><i class="fa fa-envelope"></i> info@cedricdesigns.com.au</p>
                         </div>
-                        <div class="h-50"></div>
+                        <div class="sep50"></div>
                     </div>
 
                     <div class="col-md-4 text-center">
@@ -202,7 +197,7 @@
                             <p><i class="fa fa-clock-o"></i> <span class="day">Weekdays:</span><span>9am to 8pm</span></p>
                             <p><i class="fa fa-clock-o"></i> <span class="day">Saturday:</span><span>9am to 5pm</span></p>
                             <p><i class="fa fa-clock-o"></i> <span class="day">Sunday:</span><span>Closed</span></p>
-                            <div class="h-50"></div>
+                            <div class="sep50"></div>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -210,8 +205,8 @@
                             <h4>Social Media Links</h4>
                             <a href="https://www.instagram.com/cedesignlaos/" class="fab fa-instagram"></a>
                             <a href="https://www.behance.net/cedriclemercierlaos" class="fab fa-behance"></a>
-                             
-                            <div class="h-50"></div>
+
+                            <div class="sep50"></div>
                         </div>
                     </div>
                 </div>
@@ -229,9 +224,13 @@
         <!-- Bootstrap core JavaScript
 ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
+
         <script src="../js/owl.carousel.min.js"></script>
         <script src="../js/cbpAnimatedHeader.js"></script>
         <script src="../js/jquery.appear.js"></script>

@@ -14,7 +14,7 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="I am a professional web designer in Melbourne. I do logo designs, app designs, website development, and help your business grow!
                                           ">
@@ -22,7 +22,7 @@
         <link rel="icon" href="images/fav-icon.png">
         <title>About | Cedric Le Mercier - Freelance Web and Graphic Designer in Melbourne </title>
         <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/cc5da75b66.js"></script>
         <!-- Custom styles for this template -->
         <link href="css/owl.carousel.css" rel="stylesheet">
@@ -30,53 +30,50 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body id="page-top">
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+      
+      
+      
+       <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="index"><img src="images/fav-icon.jpg" alt="Minimalistic Logo for Graphic and Web Design Freelance Business Portfolio: Cedric Designs" >
+                <a class="navbar-brand" href="index"><img src="images/fav-icon.jpg" alt="Minimalistic Logo for Graphic and Web Design Freelance Business Portfolio: Cedric Designs" >
+                </a>
 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li>
-                            <a href="index">Home</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about">About</a>
                         </li>
-                        <li class="active">
-                            <a href="about">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services">Business Website</a>
                         </li>
-                        <li>
-                            <a href="services">Website Solutions</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Other Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="branding">Branding</a>
+                                <a class="dropdown-item" href="userinterface">UI Design</a>
+                                <a class="dropdown-item" href="videos">Video Ads</a>
+                            </div>
                         </li>
-                        <li>
-                            <a href="other-services">Other Services</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio/">Portfolio</a>
                         </li>
-                        <li>
-                            <a href="portfolio/" class="active">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="contact">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Contact</a>
                         </li>
                     </ul>
+
                 </div>
-                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container-fluid -->
         </nav>
-        <!-- Header -->
 
 
 
@@ -96,20 +93,20 @@
                     </div>
                 </div>
                 <div class="row about-section">
-                    <div class="h-50"></div>
+                    <div class="sep50"></div>
 
                     <div class="container">
 
 
                         <div class="col-md-4">
-                            <!--<img src="images/profile.jpg" class="img-responsive post-image" alt="">-->
-                            <div class="h-50"></div>
+                            <!--<img src="images/profile.jpg" class="img-fluid post-image" alt="">-->
+                            <div class="sep50"></div>
                         </div>
 
                         <div class="col-md-8">
 
                             <h1>Hi, I’m Cedric</h1>
-                            <div class="h-50"></div>
+                            <div class="sep50"></div>
                             <p>Before I tell you a bit more about myself, I would like to thank you for being here and reading this. Whether you are coming from a referral, from social media or even through a Google search, I assume you have a vision for your current business and want to see it come to life.</p>
 
                             <p>I am a freelance web designer and developer in Melbourne.<strong> I make logos, mobile app designs, animations videos and website design and development</strong> for small business in Australia, and all around the world.</p>
@@ -173,70 +170,70 @@
         </div>
         <!-- /.container -->
     </section>
-    
+
     <!--======================== Gigs section =========================-->
 
-        <section id="gig" class="white-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="section-title">
-                            <h2>My Gigs</h2>
-                            <p>You can find my gigs on Fiverr and Upwork. Those platforms offer secure transactions, smooth working processes and reliable reviews. Be sure to check it out!</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://www.fiverr.com/ceddyla/design-and-animate-a-colorful-explainer-for-you" target="_blank">
-
-
-                            <!-- Gig item 1 -->
-                            <div class="gig-item">
-                                <figure>
-                                    <img src="images/thumbnails/gig-explainer.jpg" alt="Colorful Farmer Illustration Holding a Notebook and Thinking" class="img-responsive" />
-                                </figure>
-
-                                <div class="gig-desc">
-                                    <h4>I will create a 2d animation advertisement for your business.</h4>
-                                    <div class="h-50"></div>
-                                    <div class="gig-cta clearfix">
-                                        <a href="https://www.fiverr.com/ceddyla/design-and-animate-a-colorful-explainer-for-you" class="gig-link" target="_blank">
-                                            <strong>View on</strong>
-                                            <img src="images/thumbnails/logo-fiverr.svg">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://www.fiverr.com/ceddyla/make-a-corporate-logo-for-your-business-or-app" target="_blank">
-
-
-                            <!-- Gig item 1 -->
-                            <div class="gig-item">
-                                <figure>
-                                    <img src="images/thumbnails/gig-logo.jpg" alt="Tiled Images of Different Corporate Logo Designs" class="img-responsive" />
-                                </figure>
-
-                                <div class="gig-desc">
-                                    <h4>I Will Make A Corporate Logo For Your Business Or App.</h4>
-                                    <div class="h-50"></div>
-                                    <span class="gig-new" style="position:absolute">New</span>
-                                    <div class="gig-cta clearfix">
-                                        <a href="https://www.fiverr.com/ceddyla/make-a-corporate-logo-for-your-business-or-app" class="gig-link" target="_blank">
-                                            <strong>View on</strong>
-                                            <img src="images/thumbnails/logo-fiverr.svg">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </a>
+    <section id="gig" class="white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <h2>My Gigs</h2>
+                        <p>You can find my gigs on Fiverr and Upwork. Those platforms offer secure transactions, smooth working processes and reliable reviews. Be sure to check it out!</p>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <a href="https://www.fiverr.com/ceddyla/design-and-animate-a-colorful-explainer-for-you" target="_blank">
+
+
+                        <!-- Gig item 1 -->
+                        <div class="gig-item">
+                            <figure>
+                                <img src="images/thumbnails/gig-explainer.jpg" alt="Colorful Farmer Illustration Holding a Notebook and Thinking" class="img-fluid" />
+                            </figure>
+
+                            <div class="gig-desc">
+                                <h4>I will create a 2d animation advertisement for your business.</h4>
+                                <div class="sep50"></div>
+                                <div class="gig-cta clearfix">
+                                    <a href="https://www.fiverr.com/ceddyla/design-and-animate-a-colorful-explainer-for-you" class="gig-link" target="_blank">
+                                        <strong>View on</strong>
+                                        <img src="images/thumbnails/logo-fiverr.svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.fiverr.com/ceddyla/make-a-corporate-logo-for-your-business-or-app" target="_blank">
+
+
+                        <!-- Gig item 1 -->
+                        <div class="gig-item">
+                            <figure>
+                                <img src="images/thumbnails/gig-logo.jpg" alt="Tiled Images of Different Corporate Logo Designs" class="img-fluid" />
+                            </figure>
+
+                            <div class="gig-desc">
+                                <h4>I Will Make A Corporate Logo For Your Business Or App.</h4>
+                                <div class="sep50"></div>
+                                <span class="gig-new" style="position:absolute">New</span>
+                                <div class="gig-cta clearfix">
+                                    <a href="https://www.fiverr.com/ceddyla/make-a-corporate-logo-for-your-business-or-app" class="gig-link" target="_blank">
+                                        <strong>View on</strong>
+                                        <img src="images/thumbnails/logo-fiverr.svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
 
@@ -263,7 +260,7 @@
                         <p><i class="fa fa-phone"></i> TBC</p>
                         <p><i class="fa fa-envelope"></i> info@cedricdesigns.com.au</p>
                     </div>
-                    <div class="h-50"></div>
+                    <div class="sep50"></div>
                 </div>
 
                 <div class="col-md-4 text-center">
@@ -272,7 +269,7 @@
                         <p><i class="fa fa-clock-o"></i> <span class="day">Weekdays:</span><span>9am to 8pm</span></p>
                         <p><i class="fa fa-clock-o"></i> <span class="day">Saturday:</span><span>9am to 5pm</span></p>
                         <p><i class="fa fa-clock-o"></i> <span class="day">Sunday:</span><span>Closed</span></p>
-                        <div class="h-50"></div>
+                        <div class="sep50"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -280,8 +277,8 @@
                         <h4>Social Media Links</h4>
                         <a href="https://www.instagram.com/cedesignlaos/" class="fab fa-instagram"></a>
                         <a href="https://www.behance.net/cedriclemercierlaos" class="fab fa-behance"></a>
-                         
-                        <div class="h-50"></div>
+
+                        <div class="sep50"></div>
                     </div>
                 </div>
             </div>
@@ -299,9 +296,13 @@
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/jquery.appear.js"></script>

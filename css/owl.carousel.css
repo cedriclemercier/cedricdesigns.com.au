@@ -61,7 +61,7 @@
 }
 .owl-carousel .owl-stage {
   position: relative;
-  -ms-touch-action: pan-Y;
+  -ms-tou.h--action: pan-Y;
 }
 .owl-carousel .owl-stage:after {
   content: ".";
@@ -107,7 +107,7 @@
   float: left;
   -webkit-backface-visibility: hidden;
   -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
+  -webkit-tou.h--callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;

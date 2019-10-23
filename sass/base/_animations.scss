@@ -1,0 +1,62 @@
+
+/*--------------------
+1. Simple Move Animations
+--------------------*/
+
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+
+    60% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px)
+    }
+
+    60% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveInUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveInUp100 {
+    0% {
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}

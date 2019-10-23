@@ -1,0 +1,179 @@
+/*--------------------
+1. Header
+--------------------*/
+
+
+.header-section {
+    height:91vh;
+    width:100%;
+    position:relative;
+    display: flex;
+    /*align-items:center;*/
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.header-content {
+    z-index: 2;
+    backface-visibility: hidden;
+}
+
+.header-section h1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-weight: 600;
+    animation-delay: 0s;
+    animation: moveInLeft 1s ease-out;
+}
+
+.header-section h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding:0;
+    line-height: 2.5rem;
+    width:90%;
+    animation: moveInRight 1s ease-out;
+}
+
+.header-section a {
+    animation-delay: 0.5s;
+}
+
+
+@media (min-width: 768px) {
+    .header-section h1 {
+        font-size: 6rem;
+        line-height: 8rem;
+    }
+
+    .header-section {
+        padding:70px;
+    }
+
+    .header-section h2 {
+        font-size: 2rem;
+        line-height: 4rem;
+        width:60%;
+    }
+}
+
+
+
+header {
+    background-image: url(../images/bg-01.png);
+    background-color: $color-white;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: left;
+    color: $color-white;
+    perspective: 20px;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    header .intro-text {
+        padding-top: 330px;
+        padding-bottom: 330px;
+    }
+
+    header {
+        background-position: 30% 0%;
+    }
+}
+
+
+.img-header {
+    position:absolute;
+    left: 56%;
+    top: 280px;
+    animation: moveInUp100 1s ease-out;
+}
+
+
+/*------- Services dark template header --------*/
+
+header .intro-text-dark {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    header .intro-text-dark {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    header .intro-text-dark .intro-heading {
+        line-height: 65px;
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+
+header .intro-text-dark .intro-heading {
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+    color: $color-white;
+    /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
+}
+
+
+/*---------------------------------*/
+
+header .intro-text .intro-lead-in {
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 4px 20px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 19px;
+    color: #3E3E3E;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+@media (min-width: 768px) {
+    header .intro-text .intro-lead-in {
+        font-size: 29px;
+        line-height: 40px;
+        margin-bottom: 45px;
+    }
+}
+
+header .intro-text .intro-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+    color: #202020;
+}
+
+@media (min-width: 768px) {
+    header .intro-text .intro-heading {
+        /*line-height: 95px;
+        font-size: 77px;*/
+        line-height: 75px;
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+}

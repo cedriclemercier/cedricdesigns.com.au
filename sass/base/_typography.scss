@@ -1,0 +1,25 @@
+body {
+    box-sizing: border-box;
+    font-family: "Open Sans", Sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    font-family: "Open Sans", Sans-serif;
+    color: $color-titles-dark;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: $color-paragraph-light-bg;
+}
