@@ -45,6 +45,8 @@ Import Google Fonts
 @import 'base/typography';
 @import 'base/utilities';
 
+@import 'components/headerForm';
+
 //
 @import 'layout/nav';
 @import 'layout/header';
@@ -730,6 +732,7 @@ section#contact .form-group input, section#contact .form-group textarea {
     border-radius: 0px;
     border-color: rgba(12,12,12,0.13);
     min-height: 50px;
+    font-size: 1.4rem;
 }
 
 .contact-submit input[type="submit"] {
